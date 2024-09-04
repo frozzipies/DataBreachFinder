@@ -48,7 +48,7 @@ def download_files(search_results, directory):
             print(str(e))
 
 # Prompt the user for their target domain
-target_domain = input("Masukkan Target Kamu (contoh: target.go.id)"
+target_domain = input("Masukkan Target Kamu:")
 
 # Contoh penggunaan:
 search_results = google_search_jakarta_dork(target_domain)
